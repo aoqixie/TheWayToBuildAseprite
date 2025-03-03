@@ -1,5 +1,6 @@
 # Aseprite编译方法
 方法出处：
+
 [Build Aseprite in 2025 for free](https://www.youtube.com/watch?v=Ki-qvNx6CaU)
 
 [aseprite-INSTALL.md](./INSTALL.md)
