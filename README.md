@@ -35,6 +35,7 @@
 
 ## Build aseprite项目
 1. 进入aseprite项目文件中，创建一个名为`build`的文件夹
+
 ![img2](./assents/img2.png)
 2. 进入build文件夹，打开cmd，输入下列代码(如果visualstudio2022没有安装在默认路径，请改为)
 ```bat
