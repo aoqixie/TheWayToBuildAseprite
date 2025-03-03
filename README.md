@@ -3,9 +3,7 @@
 
 [Build Aseprite in 2025 for free](https://www.youtube.com/watch?v=Ki-qvNx6CaU)
 
-[aseprite-INSTALL.md](./INSTALL.md)
-
-[网页端INSTALL](https://github.com/aseprite/aseprite/blob/main/INSTALL.md)
+[官方INSTALL.md](https://github.com/aseprite/aseprite/blob/main/INSTALL.md)
 
 ## 准备工作
 ### 下载aseprite项目文件
