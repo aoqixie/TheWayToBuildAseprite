@@ -17,6 +17,7 @@
 1. 选择适合的版本和安装包，本次使用了windows10 64位系统，下载了64位免安装压缩包[Windows x64 ZIP](https://github.com/Kitware/CMake/releases/download/v3.31.6/cmake-3.31.6-windows-x86_64.zip)。下载完成后解压(本人解压到了D:\\Support\\ 文件夹下)
 2. 设置环境变量(如果是安装版，则需勾选`Add CMake to the PATH environment variable`)
 `设置->关于->高级系统设置->环境变量`，找到`Path`变量，添加CMake的路径
+
 ![set1](./assents/set1.png)
 ### 安装Visual Studio 2022 + windows10SDK最新版
 下载[Visual Studio 2022 https://visualstudio.microsoft.com/zh-hans/vs/](https://visualstudio.microsoft.com/zh-hans/vs/)，勾选`使用C++的游戏开发`，在安装详细信息中勾选`windows 10 SDK(10.0.20348.0)`
@@ -24,6 +25,7 @@
 ### 安装Ninja
 [Ninja仓库地址https://github.com/ninja-build/ninja/releases](https://github.com/ninja-build/ninja/releases)
 下载完毕后解压(本人解压到了D:\\Support\\Ninja 文件夹下)
+
 ![img3](./assents/img3.png)
 
 随后将Ninja添加到环境变量中，如安装CMake步骤中所示
@@ -37,6 +39,7 @@
 1. 进入aseprite项目文件中，创建一个名为`build`的文件夹
 
 ![img2](./assents/img2.png)
+
 2. 进入build文件夹，打开cmd，输入下列代码(如果visualstudio2022没有安装在默认路径，请改为)
 ```bat
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" -arch=x64
@@ -110,7 +113,9 @@ set(CMAKE_USER_MAKE_RULES_OVERRIDE_CXX ${CMAKE_CURRENT_SOURCE_DIR}/laf/cmake/cxx
 
 ## 获得aseprite
 执行完上述步骤后，build完的aseprite在`Aseprite-v1.3.13-Source\build\bin`下
+
 ![img4](./assents/img4.png)
+
 你可以将bin复制到你喜欢的地方然后重命名为aseprite，给aseprite.exe创建快捷方式并放到桌面。
 ## 完成
 恭喜你，到这里你已经获得了aseprite
@@ -119,4 +124,5 @@ set(CMAKE_USER_MAKE_RULES_OVERRIDE_CXX ${CMAKE_CURRENT_SOURCE_DIR}/laf/cmake/cxx
 ## 注意
 根据aseprite的[End-User License Agreement for Aseprite (EULA)](https://github.com/aseprite/aseprite/blob/main/EULA.txt)，编译出的软件只能个人使用，请不要分享。
 如果有能力的话，可以去[steam](https://store.steampowered.com/app/431730/Aseprite/)购买来支持作者。
+
 ![steam](./assents/steam.png)
