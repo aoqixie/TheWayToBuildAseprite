@@ -25,6 +25,7 @@
 [Ninja仓库地址https://github.com/ninja-build/ninja/releases](https://github.com/ninja-build/ninja/releases)
 下载完毕后解压(本人解压到了D:\\Support\\Ninja 文件夹下)
 ![img3](./assents/img3.png)
+
 随后将Ninja添加到环境变量中，如安装CMake步骤中所示
 
 ### 下载Skia
@@ -58,6 +59,7 @@ cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DLAF_BACKEND=skia
 cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DLAF_BACKEND=skia -DSKIA_DIR=D:\Support\Skia-Windows-Release-x64 -DSKIA_LIBRARY_DIR=D:\Support\Skia-Windows-Release-x64\out\Release-x64 -DSKIA_LIBRARY=D:\Support\Skia-Windows-Release-x64\out\Release-x64\skia.lib -G Ninja ..
 ```
 注意：不要漏了最后的` ..`
+
 5. 执行成功则会出现如下提示
 ```bat
 -- Configuring done (123.0s)
